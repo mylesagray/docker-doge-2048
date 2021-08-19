@@ -2,7 +2,8 @@
 
 A dockerised version of doge2048.
 
-Based on aferrera/2048(https://github.com/laferrera/doge2048.git)
+Based on [aferrera/2048](https://github.com/laferrera/doge2048.git)
+
 ## Run the docker container with your own build
 
     git clone https://github.com/mylesagray/docker-doge-2048.git
