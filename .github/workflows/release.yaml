@@ -53,8 +53,8 @@ jobs:
             mylesagray/doge2048:latest
             ghcr.io/mylesagray/doge2048:${{ env.IMAGE_TAG }}
             ghcr.io/mylesagray/doge2048:latest
-            harbor.blah.cloud/library/doge2048:${{ env.IMAGE_TAG }}
-            harbor.blah.cloud/library/doge2048:latest
+            harbor.blah.cloud/mylesagray/doge2048:${{ env.IMAGE_TAG }}
+            harbor.blah.cloud/mylesagray/doge2048:latest
           file: ./Dockerfile
           build-args: |
               IMAGE_TAG=${{ env.IMAGE_TAG }}
